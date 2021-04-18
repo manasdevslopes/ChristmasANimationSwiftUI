@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDE1FEB52594DCE70079472A /* MerryChristmasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1FEA22594DCE50079472A /* MerryChristmasApp.swift */; };
+		FDE1FEB62594DCE70079472A /* MerryChristmasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1FEA22594DCE50079472A /* MerryChristmasApp.swift */; };
+		FDE1FEB72594DCE70079472A /* MarryChristmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1FEA32594DCE50079472A /* MarryChristmas.swift */; };
+		FDE1FEB82594DCE70079472A /* MarryChristmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1FEA32594DCE50079472A /* MarryChristmas.swift */; };
+		FDE1FEB92594DCE70079472A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE1FEA42594DCE70079472A /* Assets.xcassets */; };
+		FDE1FEBA2594DCE70079472A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE1FEA42594DCE70079472A /* Assets.xcassets */; };
+		FDE1FED62594E5770079472A /* Kingthings Christmas 2.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */; };
+		FDE1FED72594E5770079472A /* Kingthings Christmas 2.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */; };
+		FDE9B0F9259E310700069F79 /* OctocatShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B0F8259E310700069F79 /* OctocatShape.swift */; };
+		FDE9B0FA259E310700069F79 /* OctocatShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B0F8259E310700069F79 /* OctocatShape.swift */; };
+		FDE9B0FE259E315800069F79 /* GithubLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B0FD259E315800069F79 /* GithubLoader.swift */; };
+		FDE9B0FF259E315800069F79 /* GithubLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B0FD259E315800069F79 /* GithubLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDE1FEA22594DCE50079472A /* MerryChristmasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerryChristmasApp.swift; sourceTree = "<group>"; };
+		FDE1FEA32594DCE50079472A /* MarryChristmas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarryChristmas.swift; sourceTree = "<group>"; };
+		FDE1FEA42594DCE70079472A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE1FEA92594DCE70079472A /* MerryChristmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerryChristmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE1FEAC2594DCE70079472A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE1FEB12594DCE70079472A /* MerryChristmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerryChristmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE1FEB32594DCE70079472A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE1FEB42594DCE70079472A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kingthings Christmas 2.2.ttf"; sourceTree = "<group>"; };
+		FDE9B0F8259E310700069F79 /* OctocatShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctocatShape.swift; sourceTree = "<group>"; };
+		FDE9B0FD259E315800069F79 /* GithubLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE1FEA62594DCE70079472A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1FEAE2594DCE70079472A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE1FE9C2594DCE40079472A = {
+			isa = PBXGroup;
+			children = (
+				FDE1FEA12594DCE50079472A /* Shared */,
+				FDE1FEAB2594DCE70079472A /* iOS */,
+				FDE1FEB22594DCE70079472A /* macOS */,
+				FDE1FEAA2594DCE70079472A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE1FEA12594DCE50079472A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1FEA22594DCE50079472A /* MerryChristmasApp.swift */,
+				FDE1FEA32594DCE50079472A /* MarryChristmas.swift */,
+				FDE9B0F8259E310700069F79 /* OctocatShape.swift */,
+				FDE9B0FD259E315800069F79 /* GithubLoader.swift */,
+				FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */,
+				FDE1FEA42594DCE70079472A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FDE1FEAA2594DCE70079472A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1FEA92594DCE70079472A /* MerryChristmas.app */,
+				FDE1FEB12594DCE70079472A /* MerryChristmas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE1FEAB2594DCE70079472A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1FEAC2594DCE70079472A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		FDE1FEB22594DCE70079472A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1FEB32594DCE70079472A /* Info.plist */,
+				FDE1FEB42594DCE70079472A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE1FEA82594DCE70079472A /* MerryChristmas (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE1FEBD2594DCE70079472A /* Build configuration list for PBXNativeTarget "MerryChristmas (iOS)" */;
+			buildPhases = (
+				FDE1FEA52594DCE70079472A /* Sources */,
+				FDE1FEA62594DCE70079472A /* Frameworks */,
+				FDE1FEA72594DCE70079472A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MerryChristmas (iOS)";
+			productName = "MerryChristmas (iOS)";
+			productReference = FDE1FEA92594DCE70079472A /* MerryChristmas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE1FEB02594DCE70079472A /* MerryChristmas (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE1FEC02594DCE70079472A /* Build configuration list for PBXNativeTarget "MerryChristmas (macOS)" */;
+			buildPhases = (
+				FDE1FEAD2594DCE70079472A /* Sources */,
+				FDE1FEAE2594DCE70079472A /* Frameworks */,
+				FDE1FEAF2594DCE70079472A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MerryChristmas (macOS)";
+			productName = "MerryChristmas (macOS)";
+			productReference = FDE1FEB12594DCE70079472A /* MerryChristmas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE1FE9D2594DCE40079472A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FDE1FEA82594DCE70079472A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FDE1FEB02594DCE70079472A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FDE1FEA02594DCE40079472A /* Build configuration list for PBXProject "MerryChristmas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE1FE9C2594DCE40079472A;
+			productRefGroup = FDE1FEAA2594DCE70079472A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE1FEA82594DCE70079472A /* MerryChristmas (iOS) */,
+				FDE1FEB02594DCE70079472A /* MerryChristmas (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE1FEA72594DCE70079472A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1FED62594E5770079472A /* Kingthings Christmas 2.2.ttf in Resources */,
+				FDE1FEB92594DCE70079472A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1FEAF2594DCE70079472A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1FED72594E5770079472A /* Kingthings Christmas 2.2.ttf in Resources */,
+				FDE1FEBA2594DCE70079472A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE1FEA52594DCE70079472A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1FEB72594DCE70079472A /* MarryChristmas.swift in Sources */,
+				FDE9B0F9259E310700069F79 /* OctocatShape.swift in Sources */,
+				FDE1FEB52594DCE70079472A /* MerryChristmasApp.swift in Sources */,
+				FDE9B0FE259E315800069F79 /* GithubLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE1FEAD2594DCE70079472A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE1FEB82594DCE70079472A /* MarryChristmas.swift in Sources */,
+				FDE9B0FA259E310700069F79 /* OctocatShape.swift in Sources */,
+				FDE1FEB62594DCE70079472A /* MerryChristmasApp.swift in Sources */,
+				FDE9B0FF259E315800069F79 /* GithubLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDE1FEBB2594DCE70079472A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDE1FEBC2594DCE70079472A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FDE1FEBE2594DCE70079472A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.MerryChristmas;
+				PRODUCT_NAME = MerryChristmas;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE1FEBF2594DCE70079472A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.MerryChristmas;
+				PRODUCT_NAME = MerryChristmas;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE1FEC12594DCE70079472A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.MerryChristmas;
+				PRODUCT_NAME = MerryChristmas;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDE1FEC22594DCE70079472A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.MerryChristmas;
+				PRODUCT_NAME = MerryChristmas;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE1FEA02594DCE40079472A /* Build configuration list for PBXProject "MerryChristmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE1FEBB2594DCE70079472A /* Debug */,
+				FDE1FEBC2594DCE70079472A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE1FEBD2594DCE70079472A /* Build configuration list for PBXNativeTarget "MerryChristmas (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE1FEBE2594DCE70079472A /* Debug */,
+				FDE1FEBF2594DCE70079472A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE1FEC02594DCE70079472A /* Build configuration list for PBXNativeTarget "MerryChristmas (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE1FEC12594DCE70079472A /* Debug */,
+				FDE1FEC22594DCE70079472A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE1FE9D2594DCE40079472A /* Project object */;
+}
