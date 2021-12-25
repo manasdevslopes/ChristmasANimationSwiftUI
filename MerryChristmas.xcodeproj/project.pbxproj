@@ -15,6 +15,8 @@
 		FDE1FEBA2594DCE70079472A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE1FEA42594DCE70079472A /* Assets.xcassets */; };
 		FDE1FED62594E5770079472A /* Kingthings Christmas 2.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */; };
 		FDE1FED72594E5770079472A /* Kingthings Christmas 2.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */; };
+		FDE2BFB52776D87100F7FC87 /* MerryChristmasEmmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2BFB42776D87100F7FC87 /* MerryChristmasEmmitter.swift */; };
+		FDE2BFB62776D87100F7FC87 /* MerryChristmasEmmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2BFB42776D87100F7FC87 /* MerryChristmasEmmitter.swift */; };
 		FDE9B0F9259E310700069F79 /* OctocatShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B0F8259E310700069F79 /* OctocatShape.swift */; };
 		FDE9B0FA259E310700069F79 /* OctocatShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B0F8259E310700069F79 /* OctocatShape.swift */; };
 		FDE9B0FE259E315800069F79 /* GithubLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B0FD259E315800069F79 /* GithubLoader.swift */; };
@@ -31,6 +33,7 @@
 		FDE1FEB32594DCE70079472A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDE1FEB42594DCE70079472A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kingthings Christmas 2.2.ttf"; sourceTree = "<group>"; };
+		FDE2BFB42776D87100F7FC87 /* MerryChristmasEmmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerryChristmasEmmitter.swift; sourceTree = "<group>"; };
 		FDE9B0F8259E310700069F79 /* OctocatShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctocatShape.swift; sourceTree = "<group>"; };
 		FDE9B0FD259E315800069F79 /* GithubLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +75,7 @@
 				FDE9B0FD259E315800069F79 /* GithubLoader.swift */,
 				FDE1FED52594E5770079472A /* Kingthings Christmas 2.2.ttf */,
 				FDE1FEA42594DCE70079472A /* Assets.xcassets */,
+				FDE2BFB42776D87100F7FC87 /* MerryChristmasEmmitter.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -201,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE2BFB52776D87100F7FC87 /* MerryChristmasEmmitter.swift in Sources */,
 				FDE1FEB72594DCE70079472A /* MarryChristmas.swift in Sources */,
 				FDE9B0F9259E310700069F79 /* OctocatShape.swift in Sources */,
 				FDE1FEB52594DCE70079472A /* MerryChristmasApp.swift in Sources */,
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE2BFB62776D87100F7FC87 /* MerryChristmasEmmitter.swift in Sources */,
 				FDE1FEB82594DCE70079472A /* MarryChristmas.swift in Sources */,
 				FDE9B0FA259E310700069F79 /* OctocatShape.swift in Sources */,
 				FDE1FEB62594DCE70079472A /* MerryChristmasApp.swift in Sources */,
@@ -342,7 +348,7 @@
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,7 +370,7 @@
 				DEVELOPMENT_TEAM = XP6V4T4UU6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
